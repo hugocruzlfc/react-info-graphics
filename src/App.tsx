@@ -5,6 +5,8 @@ import CompoundComponentsPatterns from "./Compound-Components-Pattern";
 import CorrectlyComponent from "./AvoidFetchingDataInuseEffect/CorrectlyComponent";
 import UserContainer from "./ExposeCustomRefsWithUseImperativeHandle";
 import Page from "./ExposeCustomRefsWithUseImperativeHandle/Example2";
+import GoalLegend from "./ImproveConditionalRendering";
+import AddressShippingCost from "./AvoidToDifficultReadConditionals";
 
 const queryClient = new QueryClient();
 
@@ -25,6 +27,17 @@ function App() {
       </div>
       <div>
         <Page />
+      </div>
+      <br />
+      <div>
+        <p>Improve Conditional Render</p>
+        <GoalLegend goal={30} />
+      </div>
+      <div>
+        <p>Improve ternaries use</p>
+        <AddressShippingCost
+          address={{ country: "US", zipCode: "90210fewf" }}
+        />
       </div>
     </div>
   );
