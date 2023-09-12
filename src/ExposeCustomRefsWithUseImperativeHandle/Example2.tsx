@@ -1,4 +1,4 @@
-import { forwardRef, useRef, useImperativeHandle } from "react";
+import React, { forwardRef, useRef, useImperativeHandle } from "react";
 
 interface PostMethods {
   scrollAndFocusAddComment: () => void;

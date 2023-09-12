@@ -1,6 +1,6 @@
 //Forgetting that useSate is asynchronous
 
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const MistakeOne = () => {
   const [user, setUser] = useState({ name: "", age: "" });

@@ -1,5 +1,5 @@
 // Infinite loop in useEffect
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 
 export const MistakeThree = () => {
   //const [count, setCount] = useState(0);

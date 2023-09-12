@@ -13,8 +13,6 @@ const CorrectlyComponent: React.FC<CorrectlyComponentProps> = () => {
     },
   });
 
-  console.log(data);
-  console.log(error);
   //Caching, deduping multiple requests, error handing strong, pagination and lazy loading data handlers
 
   if (isLoading) return <div>Loading...</div>;

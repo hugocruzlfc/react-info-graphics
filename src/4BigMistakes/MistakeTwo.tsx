@@ -1,5 +1,5 @@
 //Missing default value for the state
-import { useState } from "react";
+import React, { useState } from "react";
 
 export const MistakeTwo = () => {
   //const [firstName, userFirstName] = useState();

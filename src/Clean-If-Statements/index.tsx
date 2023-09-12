@@ -1,3 +1,4 @@
+import React from "react";
 export default function CleanIfStatements() {
   const canUserPlaceOrderOriginal = (payment: any, product: any) => {
     let canPlaceOrder = false;
